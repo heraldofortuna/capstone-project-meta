@@ -1,0 +1,89 @@
+.promo-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0rem;
+  padding: 4rem 5rem;
+  background-color: #495E57;
+  flex-wrap: wrap;
+  overflow: visible;
+  position:relative;
+}
+.promo-text .reserve-button {
+  background-color: #F4CE14;
+  color: #333;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Markazi Text', serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+.promo-text .reserve-button:hover {
+  background-color: #e0b912;
+  color: white;
+}
+.promo-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #EDEFEE; 
+  min-width: 300px; 
+  padding:0rem 7rem;
+}
+
+.promo-text h1 {
+  font-family: 'Markazi Text', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #F4CE14; 
+  margin: 0;
+}
+
+.promo-text h2 {
+  font-family: 'Markazi Text', serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  max-width: 470px;
+  margin: 0;
+  color: #EDEFEE; 
+}
+
+.promo-text p {
+  font-family: 'Markazi Text', serif;
+  max-width: 35ch;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #EDEFEE;
+  margin: 0;
+}
+
+
+
+.promo-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+  position:relative;
+  overflow:visible;
+  max-height:300px;
+}
+
+.promo-image img {
+  width: 400px;
+  height: 450px; 
+  max-width: 430px;
+  border-radius: 20px;
+  position:relative;
+  left:-4rem;
+  bottom:-3rem;
+  object-fit:cover; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,24 @@
+.Navigation-site
+{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap:2rem;
+}
+.Navigation-site ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.Navigation-site ul li a {
+    text-decoration: none;
+    color: #333;
+    transition:color 0.3s ease;
+}
+
+.Navigation-site ul li a:hover,
+.Navigation-site ul li a:focus{
+    color:#EE9972;
+    outline:none;
+}

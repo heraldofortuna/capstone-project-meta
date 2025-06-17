@@ -1,0 +1,97 @@
+.footer-section {
+  background-color: #EDEFEE;
+  display: flex;
+  flex-direction: row;
+  gap: 25px; /* Matches the spacing between sections in the image */
+  padding: 2rem; /* Matches the padding around the footer */
+  font-family: 'Karla', sans mezzi; /* Matches the font in the image */
+  color: #333; /* Matches the text color */
+  flex-wrap: wrap; /* Ensures responsiveness */
+  position: relative; /* For the footer note */
+}
+
+.logo-section {
+  width: 100px; 
+  padding: 20px;
+}
+
+.logo-section img {
+  max-width: 100%; /* Ensures the logo scales properly */
+  display: block;
+}
+
+.navigation-section,
+.contact-section,
+.socials-section {
+  flex: 1; /* Distributes space evenly */
+  text-align: left; /* Matches the left-aligned text */
+  padding: 1rem 3rem;
+  min-width: 150px; /* Prevents sections from collapsing */
+}
+
+.navigation-section h2,
+.contact-section h2,
+.socials-section h2 {
+  font-size: 1.2rem; /* Matches the heading size */
+  font-weight: bold;
+  color: #495E57; /* Matches the teal heading color */
+  margin-bottom: 0.5rem; /* Adds spacing below the heading */
+}
+
+.navigation-section ul,
+.contact-section ul,
+.socials-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-section li,
+.contact-section li,
+.socials-section li {
+  font-size: 1rem; /* Matches the list item size */
+  margin-bottom: 0.3rem; /* Matches the small vertical spacing */
+  color: #333;
+}
+
+.contact-section li a {
+  color: #0000EE; /* Matches the blue email link */
+  text-decoration: underline;
+}
+
+/* Footer note (missing in your JSX, but present in the image) */
+.footer-note {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9rem; /* Matches the small footer note size */
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .footer-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+    gap: 15px; /* Slightly smaller gap for mobile */
+  }
+
+  .logo-section {
+    width: 120px; /* Adjusted for mobile */
+    margin: 0 auto 1rem; /* Centers the logo with spacing below */
+  }
+
+  .navigation-section,
+  .contact-section,
+  .socials-section {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .footer-note {
+    position: static;
+    transform: none;
+    margin-top: 1rem;
+  }
+}
