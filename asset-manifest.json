@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/capstone-project-meta/static/css/main.caf9afc4.css",
+    "main.js": "/capstone-project-meta/static/js/main.2bc583c6.js",
+    "static/js/453.4e526771.chunk.js": "/capstone-project-meta/static/js/453.4e526771.chunk.js",
+    "static/media/greek-salad.jpg": "/capstone-project-meta/static/media/greek-salad.bed423a1fab5b210e347.jpg",
+    "static/media/intro.jpg": "/capstone-project-meta/static/media/intro.e8abf5b772b6817189aa.jpg",
+    "static/media/sophia.jpg": "/capstone-project-meta/static/media/sophia.c669195794a3f751590c.jpg",
+    "static/media/John.jpg": "/capstone-project-meta/static/media/John.83e4335439b8d9663a50.jpg",
+    "static/media/bruschetta.png": "/capstone-project-meta/static/media/bruschetta.ff9bc78ebef44ca165ff.png",
+    "static/media/hyra.jpg": "/capstone-project-meta/static/media/hyra.50b1ca89f1d32f136a45.jpg",
+    "static/media/chef.png": "/capstone-project-meta/static/media/chef.8b172ad4a159fd1f8ee5.png",
+    "static/media/Jimmy.jpg": "/capstone-project-meta/static/media/Jimmy.0f9852e5d2e5ba06b066.jpg",
+    "static/media/restaurent.jpg": "/capstone-project-meta/static/media/restaurent.d8a6ae5eed8fd28fe769.jpg",
+    "static/media/footer.png": "/capstone-project-meta/static/media/footer.2c859235d6c57bb54176.png",
+    "static/media/ourstory.jpg": "/capstone-project-meta/static/media/ourstory.6189646485c5c0c7d2d9.jpg",
+    "static/media/logo.png": "/capstone-project-meta/static/media/logo.d4cae6fac8384c2dae04.png",
+    "static/media/lemon.jpg": "/capstone-project-meta/static/media/lemon.6543031ec6eccc1d0b49.jpg",
+    "index.html": "/capstone-project-meta/index.html",
+    "main.caf9afc4.css.map": "/capstone-project-meta/static/css/main.caf9afc4.css.map",
+    "main.2bc583c6.js.map": "/capstone-project-meta/static/js/main.2bc583c6.js.map",
+    "453.4e526771.chunk.js.map": "/capstone-project-meta/static/js/453.4e526771.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caf9afc4.css",
+    "static/js/main.2bc583c6.js"
+  ]
+}
